@@ -1,5 +1,11 @@
 fun main() {
-    /*  part 1
+
+    part1()
+
+    part2()
+}
+
+private fun part1() {
     var horizontal = 0
     var depth = 0
 
@@ -16,9 +22,9 @@ fun main() {
         }
     }
     println(horizontal * depth)
-     */
+}
 
-    //  part 2
+private fun part2() {
     var horizontal = 0
     var depth = 0
     var aim = 0
