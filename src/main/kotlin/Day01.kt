@@ -1,3 +1,7 @@
-fun main(args: Array<String>) {
-    println("Hello Day01!")
+fun main() {
+    val input = readIntegers("input01.txt").toMutableList()
+
+    val first = input[0]
+
+    println(first)
 }
