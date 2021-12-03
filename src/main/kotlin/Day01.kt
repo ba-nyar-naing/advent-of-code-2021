@@ -1,7 +1,13 @@
 fun main() {
-    val input = readIntegers("input01.txt").toMutableList()
+    val inputs = readIntegers("input01.txt").toMutableList()
 
-    val first = input[0]
+    var count = 0
+    var previous = inputs.removeFirst()
 
-    println(first)
+    inputs.forEach { current ->
+        if (current > previous) count++
+        previous = current
+    }
+
+    println(count)
 }
